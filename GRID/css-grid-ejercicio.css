@@ -1,0 +1,75 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1º Hack para que 1rem = 10px */
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+/* Globales */
+body{
+  font-size: 1.6rem;
+}
+
+.contenedor {
+    max-width: min(90%, 120rem);
+    margin: 0 auto;
+}
+
+
+/* Ordenar */
+.ordenar-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3 , 1fr);
+    column-gap:3.3rem ;
+    row-gap: 3.2rem;
+     margin:2.8rem 3.3rem;
+}
+
+.ordenar-grid .lateral{
+  grid-row: 1/3;
+}
+
+.ordenar-grid .inferior{
+ grid-column: -4 / -1;
+}
+
+.ordenar-grid .lateral img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.ordenar-grid .inferior img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.ordenar-grid .cuadro1 img{
+  max-width: 100%;
+  max-height: 100%;
+  grid-row: 2 / 3;
+  grid-column: -3 / -2;
+}
+.ordenar-grid .cuadro2 img{
+  max-width: 100%;
+  max-height: 100%;
+  grid-row: 3 / 4;
+  grid-column: -2 / -1;
+
+}
+.ordenar-grid .cuadro3 img{
+  max-width: 100%;
+  max-height: 100%;
+}
+.ordenar-grid .cuadro4 img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+
+

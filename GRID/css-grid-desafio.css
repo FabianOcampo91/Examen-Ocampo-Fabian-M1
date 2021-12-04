@@ -1,0 +1,75 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+    
+*,
+ *:before,
+*:after {
+    box-sizing: inherit;
+
+}
+  
+body {
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;  }
+  
+img {
+    max-width: 100%;
+    display: block;
+  }
+  
+  /* Globales */
+  
+.contenedor{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+/* barra */
+
+.barra{
+  display: grid;
+  grid-template-columns: 1fr  3fr  1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  
+}
+
+.logo{
+  width: 15rem;
+  max-height: 6.3rem;
+  margin: 1.2rem 4.5rem;
+
+}
+
+/* Enlaces */ 
+
+
+.enlaces{
+    display: flex;
+    justify-content: space-evenly;
+  text-align: center;
+  padding: 0 1rem;
+  gap: 1.9rem;
+  
+}
+
+.enlaces a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #000000;
+  }
+/* Buttom */
+
+.boton{
+  background-image: url(/GRID/imagesG/boton.png);
+  background-color: transparent;
+  background-position: center;
+  border: none;
+  margin: 1.2rem 4.5rem;
+  padding: 0%;
+  width: 15rem;
+  height: 6.3rem;
+
+}

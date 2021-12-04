@@ -1,0 +1,55 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1º Hack para que 1rem = 10px */
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+/* Globales */
+
+.contenedor {
+    max-width: min(90%, 120rem);
+    margin: 0 auto;
+  
+  }
+
+/* header */
+.barra{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2.6rem;
+  /* margin-left: 4rem;
+  margin-right: 4rem; */
+  background-color: #F8F8F8;
+}
+
+.enlaces{
+  display: flex;
+  justify-content: space-between;
+  padding: 1.6rem 2.5rem;
+  width: 33.5rem;
+  height: 6.3rem;
+}
+
+.enlaces a{
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  font-size: 2.5rem;
+  gap: 19px;
+}
+
+.boton{
+  background-image: url(/FLEX/IMAGES/boton.png);
+  background-color: none;
+  border: none;
+  padding: 0%;
+  width: 16.2rem;
+  height: 5.9rem;
+
+}
